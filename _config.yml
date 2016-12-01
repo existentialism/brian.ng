@@ -1,0 +1,10 @@
+title: brian.ng
+
+gems:
+  - jekyll-seo-tag
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']

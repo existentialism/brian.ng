@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <style>      
+      {% capture include_to_scssify %}
+        {% include main.scss %}
+      {% endcapture %}
+      {{ include_to_scssify | scssify }}            
+    </style>
+    <script src="https://use.typekit.net/hlv5jhx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+    <article>
+      <section>
+        <h1>brian<span class="em">.</span>ng</h1>
+        <p>I am a Houston-based designer/developer who loves building awesome products.</p>
+        <p>I am a partner at <a href="http://www.mfotek.com/">mfotek</a>.</p>
+        <p>I often pretend to be a <a href="http://flickr.com/photos/bng">photographer</a> with something to <a href="http://twitter.com/existentialism">say</a>.</p>
+        <p>Good food, film, art, fashion, design, and <a href="http://www.last.fm/user/crimson_clover">music</a> slay me.</p>
+        <p>Live what you love.</p>
+      </section>
+    </article>
+  </body>
+</html>
