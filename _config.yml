@@ -7,4 +7,5 @@ sass:
     sass_dir: _sass
     style: :compressed
 
+include: ['.well-known']
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
