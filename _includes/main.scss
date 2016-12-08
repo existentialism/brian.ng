@@ -44,10 +44,16 @@ article {
   text-align: left;
 }
 
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
 section {
   > * {
-    -webkit-transition: all 2s ease-out;
-    transition: all 2s ease-out;
+    @include transition(all 2s ease-out);
   }
 }
 
